@@ -8,3 +8,5 @@ def recipe_search(ingredient):
     data = result.json()
     return data['hits']
 
+
+

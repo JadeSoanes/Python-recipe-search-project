@@ -8,5 +8,14 @@ def recipe_search(ingredient):
     data = result.json()
     return data['hits']
 
+def run():
+    ingredient = input('Enter an ingredient: ')
+    results = recipe_search(ingredient)
+    for result in results:
+     recipe = result['recipe']
+     print(recipe['label'])
+     print(recipe['uri'])
+     print()
 
+run()
 

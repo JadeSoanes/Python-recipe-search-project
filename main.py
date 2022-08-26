@@ -15,7 +15,7 @@ def recipe_search(ingredient):
 def run():
     ingredient = input('Enter an ingredient: ')
     results = recipe_search(ingredient)
-# function to print the recipe link, uri and calories each time
+# function to print the recipe link, uri and calories each time quickly
     def output():
         print(recipe['label'])
         print(recipe['uri'])

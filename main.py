@@ -1,7 +1,7 @@
 import requests
 import json
 
-# connecting to api
+# function connecting to api
 
 def recipe_search(ingredient):
     app_id = '2ce04194'
